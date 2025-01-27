@@ -21,11 +21,11 @@ Use two variables to track the number of ways to the last two steps.
 
 - **Example**:  
 For `n = 4`, the distinct ways are:  
-- 1+1+1+1  
-- 1+1+2  
-- 1+2+1  
-- 2+1+1  
-- 2+2 
+  1+1+1+1  
+  1+1+2  
+  1+2+1  
+  2+1+1  
+  2+2 
 
 ---
 
