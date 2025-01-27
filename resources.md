@@ -29,3 +29,18 @@ For `n = 4`, the distinct ways are:
 
 ---
 
+### 3. **Valid Parentheses**
+- **Notes**:  
+  - Use a stack to track opening brackets.
+  - For each closing bracket, check if it matches the top element of the stack.
+  - If the stack is empty at the end, the sequence is valid.
+
+- **Example**:  
+  1. Initially, the stack is empty: [].
+  2. Push ( onto the stack: ['('] — now ( is the top element.
+  3. Push { onto the stack: ['(', '{'] — now { is the top element.
+  4. Pop the top element: stack.pop() removes { — the stack becomes ['('].
+  5. Pop the top element again: stack.pop() removes ( — the stack becomes empty [].
+
+---
+
