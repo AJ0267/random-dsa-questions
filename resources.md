@@ -1,4 +1,4 @@
-## Problem Solutions and Notes
+## Notes
 
 ---
 
